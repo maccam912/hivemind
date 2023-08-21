@@ -103,7 +103,7 @@ class BuildPy(build_py):
 
     def initialize_options(self):
         super().initialize_options()
-        self.buildgo = False
+        self.buildgo = True
 
     def run(self):
         if self.buildgo:
